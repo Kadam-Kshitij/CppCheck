@@ -29,5 +29,5 @@ All cpp files and included h files by them are checked recursively in all the fo
 
 Links
 ---
-Website - https://cppcheck.sourceforge.io/
+Website - https://cppcheck.sourceforge.io/ <br/>
 Github - https://github.com/danmar/cppcheck/
