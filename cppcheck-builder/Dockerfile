@@ -18,5 +18,5 @@ RUN mkdir /lib64 && ln -s /lib/libc.musl-x86_64.so.1 /lib64/ld-linux-x86-64.so.2
 COPY --from=builderImage /usr/bin/cppcheck /usr/bin/cppcheck
 COPY --from=builderImage /usr/share/Cppcheck /usr/share/Cppcheck
 WORKDIR /home/cppcheck
-CMD ["--enable=all", "--language=c++", "--std=c++20", "--output-file=/home/cppcheck/cppcheck-output.txt", "/home/cppcheck"]
+CMD ["--enable=all", "--language=c++", "--std=c++20", "--output-file=cppcheck-output.txt", "."]
 ENTRYPOINT ["cppcheck"]
