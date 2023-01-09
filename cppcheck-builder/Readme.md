@@ -22,3 +22,7 @@ docker run -it --rm -v <path_of_cpp_files_on_host>:/home/cppcheck/ <image_name>/
 ```
 The above command will run cppcheck with default arguments on all the files present in <path_of_cpp_files_on_host> folder.<br/>
 The output is generated in file named cppcheck-output.txt<br/>
+Default arguments used are ["--enable=all", "--language=c++", "--std=c++20", "--output-file=/home/cppcheck/cppcheck-output.txt", "/home/cppcheck"]<br/>
+
+Run custom command
+---
