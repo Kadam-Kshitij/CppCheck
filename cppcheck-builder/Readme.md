@@ -9,7 +9,7 @@ Build commands
 To build a specific cppcheck version docker image use the following command -
 Replace 2.9.2 with the version of cppcheck required.
 ```
-docker build --build-arg CPPCHECK_VERSION=2.9.3 -t \<image_name>:\<tag> .
+docker build --build-arg CPPCHECK_VERSION=2.9.3 -t /<image_name>:/<tag> .
 ```
 
 The above command will build a docker image with specified CPPCHECK_VERSION inbuild.
@@ -18,5 +18,5 @@ There are two ways to run the above generated docker image.
 Run default command
 ---
 ```
-docker run -it --rm -v <path_of_cpp_files>:/home/cppcheck/ \<image_name>/\<tag>
+docker run -it --rm -v <path_of_cpp_files>:/home/cppcheck/ /<image_name>//<tag>
 ```
