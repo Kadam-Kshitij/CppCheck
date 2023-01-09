@@ -14,7 +14,7 @@ Commands
 Command | Description
 --- | ---
 --help | Display help
---xml | Generate output as xml file
+--xml | Generate output as xml format
 --output-file=\<file> | Output file name
 --std=\<std> | C++/C standard tp use. eg --std=c++20
 --language=\<language> | Force to use c++/c language on all files
