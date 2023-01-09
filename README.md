@@ -5,6 +5,7 @@ Commands
 ---
 Command | Description
 ---
+
 --help | Display help
 --xml | Generate output as xml file
 --output-file=<file> | Output file name
